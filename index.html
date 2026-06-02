@@ -3,10 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index</title>
+  <title>UI/UX Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is the index.html file.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Ava J. Design</a>
+      <nav class="nav-bar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <span class="eyebrow">UI/UX Portfolio</span>
+        <h1>Designing digital experiences that feel intuitive, polished, and human.</h1>
+        <p>Product-focused interface design with a blend of research, UX strategy, and visual systems. I create polished workflows for startups, agencies, and growing digital teams.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="projects.html">View Work</a>
+          <a class="btn btn-secondary" href="contact.html">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="hero-card">
+          <p class="card-label">Featured project</p>
+          <h2>Retail onboarding platform</h2>
+          <p>Optimized a customer onboarding workflow for a boutique brand management app, improving conversion and reducing support volume.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h2>Selected case studies</h2>
+      <div class="grid grid-3">
+        <article class="card">
+          <span class="card-tag">Fintech</span>
+          <h3>Mobile investment dashboard</h3>
+          <p>Crafted a data-first mobile experience with clear visual hierarchy and thoughtful motion to improve trust and clarity.</p>
+        </article>
+        <article class="card">
+          <span class="card-tag">SaaS</span>
+          <h3>Workflow automation suite</h3>
+          <p>Designed a modular interface for project managers, reducing onboarding time and increasing product adoption.</p>
+        </article>
+        <article class="card">
+          <span class="card-tag">E-commerce</span>
+          <h3>Checkout & conversion system</h3>
+          <p>Improved purchase flows and microcopy to lower friction and support a 17% revenue lift.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="process container">
+      <h2>Design process</h2>
+      <div class="grid grid-4">
+        <div class="process-step">
+          <strong>Research</strong>
+          <p>Stakeholder interviews, competitive analysis, and usability insights to define the problem space.</p>
+        </div>
+        <div class="process-step">
+          <strong>Strategy</strong>
+          <p>Translate business goals into experience hypotheses, user journeys, and prioritized feature flows.</p>
+        </div>
+        <div class="process-step">
+          <strong>Design</strong>
+          <p>High-fidelity interfaces, interactive prototypes, and visual systems that support accessible product launches.</p>
+        </div>
+        <div class="process-step">
+          <strong>Iterate</strong>
+          <p>Validate through user testing and analytics, then refine continuously for cleaner, more confident execution.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills container">
+      <div class="skills-intro">
+        <h2>Tools & capabilities</h2>
+        <p>UX research, product strategy, interface design, prototyping, user testing, and brand-driven visual systems.</p>
+      </div>
+      <div class="skill-list">
+        <span>Figma</span>
+        <span>Adobe XD</span>
+        <span>Sketch</span>
+        <span>InVision</span>
+        <span>Design systems</span>
+        <span>Responsive layouts</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>Ready to elevate your digital product? <a href="contact.html">Contact me</a> for a portfolio review and project plan.</p>
+    <p>© 2026 Ava J. Design</p>
+  </footer>
 </body>
 </html>
